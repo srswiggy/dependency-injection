@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS user_table (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL
+);
